@@ -21,7 +21,7 @@ public class BaseClass {
 			driver=new ChromeDriver();
 		}
 		driver.manage().window().maximize();
-		driver.get(fileUtils.readDataFromPropertyFile("url"));
+		driver.get(fileUtils.readDataFromPropertyFile("URL"));
 	}
 	@AfterMethod
 	public void afterConfiguration() {
