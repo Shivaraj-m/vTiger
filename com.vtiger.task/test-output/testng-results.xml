@@ -1,51 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-18T19:07:21 IST" name="Default suite" finished-at="2023-07-18T19:07:50 IST" duration-ms="28310">
+  <suite started-at="2023-07-18T19:50:10 IST" name="Default suite" finished-at="2023-07-18T19:50:34 IST" duration-ms="24306">
     <groups>
     </groups>
-    <test started-at="2023-07-18T19:07:21 IST" name="Default test" finished-at="2023-07-18T19:07:50 IST" duration-ms="28310">
+    <test started-at="2023-07-18T19:50:10 IST" name="Default test" finished-at="2023-07-18T19:50:34 IST" duration-ms="24306">
       <class name="com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest">
-        <test-method is-config="true" signature="configuration()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:07:21 IST" name="configuration" finished-at="2023-07-18T19:07:34 IST" duration-ms="12111" status="PASS">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:50:10 IST" name="configuration" finished-at="2023-07-18T19:50:17 IST" duration-ms="6478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configuration -->
-        <test-method signature="loginPage()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:07:34 IST" name="loginPage" finished-at="2023-07-18T19:07:42 IST" duration-ms="8276" status="PASS">
+        <test-method signature="loginPage()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:50:17 IST" name="loginPage" finished-at="2023-07-18T19:50:20 IST" duration-ms="3434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:07:42 IST" name="afterConfiguration" finished-at="2023-07-18T19:07:44 IST" duration-ms="1984" status="PASS">
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:50:20 IST" name="afterConfiguration" finished-at="2023-07-18T19:50:21 IST" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterConfiguration -->
-        <test-method is-config="true" signature="configuration()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:07:44 IST" name="configuration" finished-at="2023-07-18T19:07:48 IST" duration-ms="4688" status="PASS">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:50:21 IST" name="configuration" finished-at="2023-07-18T19:50:24 IST" duration-ms="3155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configuration -->
-        <test-method signature="homePage()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:07:48 IST" name="homePage" finished-at="2023-07-18T19:07:49 IST" depends-on-methods="com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest.loginPage" duration-ms="287" status="FAIL">
+        <test-method signature="homePage()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:50:24 IST" name="homePage" finished-at="2023-07-18T19:50:27 IST" depends-on-methods="com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest.loginPage" duration-ms="3106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:50:27 IST" name="afterConfiguration" finished-at="2023-07-18T19:50:27 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfiguration -->
+        <test-method is-config="true" signature="configuration()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:50:27 IST" name="configuration" finished-at="2023-07-18T19:50:31 IST" duration-ms="3114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method signature="campaignCreate()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:50:31 IST" name="campaignCreate" finished-at="2023-07-18T19:50:34 IST" depends-on-methods="com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest.homePage" duration-ms="3135" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@role='button']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#Campaigns_editView_fieldName_campaignname"}
   (Session info: chrome=114.0.5735.199)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cfc432e1ea58ea501d76a58dc8633d6d, findElement {using=xpath, value=//a[@role='button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62776/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cfc432e1ea58ea501d76a58dc8633d6d]]>
+Command: [627508879bb082d56c4533035e27a5ad, findElement {using=id, value=Campaigns_editView_fieldName_campaignname}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63258/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 627508879bb082d56c4533035e27a5ad]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@role='button']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#Campaigns_editView_fieldName_campaignname"}
   (Session info: chrome=114.0.5735.199)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cfc432e1ea58ea501d76a58dc8633d6d, findElement {using=xpath, value=//a[@role='button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62776/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cfc432e1ea58ea501d76a58dc8633d6d
+Command: [627508879bb082d56c4533035e27a5ad, findElement {using=id, value=Campaigns_editView_fieldName_campaignname}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63258/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 627508879bb082d56c4533035e27a5ad
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -64,8 +76,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest.homePage(vtiger_CampaignCreationTest.java:40)
+at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+at com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest.campaignCreate(vtiger_CampaignCreationTest.java:55)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -99,43 +111,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePage -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:07:49 IST" name="afterConfiguration" finished-at="2023-07-18T19:07:50 IST" duration-ms="862" status="PASS">
+        </test-method> <!-- campaignCreate -->
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:50:34 IST" name="afterConfiguration" finished-at="2023-07-18T19:50:34 IST" duration-ms="615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterConfiguration -->
-        <test-method signature="campaignCreate()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb]" started-at="2023-07-18T19:07:50 IST" name="campaignCreate" finished-at="2023-07-18T19:07:50 IST" depends-on-methods="com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest.homePage" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method vtiger_CampaignCreationTest.campaignCreate()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method vtiger_CampaignCreationTest.campaignCreate()[pri:0, instance:com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest@5acf93bb] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- campaignCreate -->
       </class> <!-- com.vtiger.qasa6.genericUtils.vtiger_CampaignCreationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
