@@ -27,5 +27,6 @@ public class BaseClass {
 	public void afterConfiguration() {
 		driver.manage().window().minimize();
 		driver.quit();
+		//Shivaraj M
 	}
 }
