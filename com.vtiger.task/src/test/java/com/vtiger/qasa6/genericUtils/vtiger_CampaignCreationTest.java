@@ -30,13 +30,14 @@ public void loginPage() throws Throwable {
 	}
 	elements.getLoginButton().submit();
 }
-	@Test(dependsOnMethods ="loginPage" )
+	@Test(dependsOnMethods = "loginPage")
 	public void homePage() throws Throwable {
+		allElements elements=new allElements(driver);
+		elements.getLoginButton().submit();
 		driver.getTitle().equals(fileUtils.readDataFromPropertyFile("HomePageTitle"));
 		System.out.println(fileUtils.readDataFromPropertyFile("HomePageTitle")+" : "+"Vtiger Home page title is found correct and is verified.");
 		driver.getCurrentUrl().equals(fileUtils.readDataFromPropertyFile("HomePageURL"));
 		System.out.println(fileUtils.readDataFromPropertyFile("HomePageURL")+" : "+"Vtiger Home page URL is found correct and is verified.");
-		allElements elements=new allElements(driver);
 		elements.getProfileIcon().click();
 		if (elements.getSignoutPtion().isDisplayed()) {
 			System.out.println("PASS: SignOut option is displayed.");
@@ -45,6 +46,7 @@ public void loginPage() throws Throwable {
 	@Test(dependsOnMethods ="homePage" )
 	public void campaignCreate() throws Throwable {
 		allElements elements=new allElements(driver);
+		elements.getLoginButton().submit();
 		elements.getQuickCreateButton().click();
 		System.out.println("Quick create window pop-up is displayed.");
 		elements.getCampaignOption().click();
